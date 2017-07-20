@@ -1,0 +1,43 @@
+*.checkstyle
+*activemq-data
+*.log
+*.tlog
+*/*/*/*/*/WEB-INF/lib
+*/*/*/*/WEB-INF/lib
+*/*/*/*/*/WEB-INF/deploy
+*/*/*/*/WEB-INF/deploy
+*/*/*/*/*/WEB-INF/classes
+*/*/*/*/WEB-INF/classes
+classes/
+*.gz
+
+# Ignore artifacts
+bin/
+build/
+target/
+lib/
+
+### Ignore Jetbrains IDEA files
+# all *.iml files
+*.iml
+*s101*
+*.ipr
+*.iws
+# all folders with .idea
+.idea
+# all .pmd files
+*.pmd
+infinitest*
+/out
+
+### Ignore Gradle files
+.gradle
+.gradle/
+gradle-app.setting
+*.metadata*
+.java-version
+*/gradle
+*/gradlew
+
+### Ignore Mac files
+.DS_Store
